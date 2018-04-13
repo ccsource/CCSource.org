@@ -22,8 +22,8 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - label: "tags"
-        name: "tags"
+      - label: "Tag"
+        name: "tag
         widget: "list"
         allow_add: true
         default: ["story"]
