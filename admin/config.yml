@@ -16,7 +16,7 @@ collections:
   - name: "story"
     label: "Story"
     folder: "_posts"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
@@ -32,5 +32,5 @@ collections:
         name: "date"
         widget: "datetime"
         default: ""
-        format: "MMM Do YY"
+        format: "YYYY/M MM/D DD h hh m mm A"
       - {label: "Body", name: "body", widget: "markdown", required: true}
