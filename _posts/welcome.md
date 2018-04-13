@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome"
 date: 2018-04-13
-excerpt: "Welcome to CCSource.org~"
+excerpt: "Welcome to"
 tags: 
   - story
 comments: true
