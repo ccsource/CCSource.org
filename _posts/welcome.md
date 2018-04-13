@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Welcome"
-date: 2018-04-13
+date: 2012-04-13
 excerpt: "Welcome to"
-tags: 
-  - story
+tags: [story]
 comments: true
 ---
 
