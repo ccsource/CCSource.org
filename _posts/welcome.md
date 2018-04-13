@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Welcome"
-tags: [story]
+tags:
+  - story
 excerpt: "Welcome to CCSource.org~"
 comments: true
-date: 2018-4-13
+date: 2018-04-13
 ---
 Hello everyone,
 
