@@ -32,5 +32,5 @@ collections:
         name: "date"
         widget: "datetime"
         default: ""
-        format: "YYYY/M MM/D DD h hh m mm A"
+        format: "YYYY/MM/DD hh:mm A"
       - {label: "Body", name: "body", widget: "markdown", required: true}
