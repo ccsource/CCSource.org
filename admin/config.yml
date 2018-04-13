@@ -17,7 +17,7 @@ collections:
   - name: "story"
     label: "Story"
     folder: "_posts"
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
