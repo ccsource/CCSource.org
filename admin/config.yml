@@ -25,7 +25,7 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "標題", name: "title", widget: "string"}
-      - {name: "網址", widget: "slug", default: "{{slug}}"}
+      - {name: "網址", widget: "string", default: "{{slug}}"}
       - {label: "簡介", name: "excerpt", widget: "string", required: false}
       - {label: "comments", name: "comments", widget: "hidden", default: true}
       - label: "發布日期"
