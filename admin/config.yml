@@ -12,8 +12,7 @@ public_folder: "/files"
 display_url: https://ccsource.org
 
 slug:
-  encoding: "ascii"
-  clean_accents: true
+  encoding: "unicode"
 
 collections:
   - name: "story"
