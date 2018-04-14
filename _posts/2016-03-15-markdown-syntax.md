@@ -7,7 +7,7 @@ tag:
   - markdown
   - syntax
   - sample
-comments: true
+comments: false
 ---
 
 ## HTML Elements
