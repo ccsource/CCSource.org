@@ -15,4 +15,4 @@ date: 2018-04-13T00:00:00.000Z
 
 **下載簡報前請先下載客製字體**
 
-* [影片 (1080p)](https://drive.google.com/open?id=1GOibq3JvqcDlvu5A09vRqihQUd44-mLX)
+* [影片 (1080p)](https://drive.google.com/file/d/1GOibq3JvqcDlvu5A09vRqihQUd44-mLX/view?usp=sharing)
