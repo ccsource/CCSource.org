@@ -11,7 +11,7 @@ locale:             zh_TW
 url:                https://ccsource.org
 
 # Jekyll
-permalink:          /:title/
+permalink:          /:slug/
 markdown:           kramdown
 highlighter:        rouge
 kramdown:

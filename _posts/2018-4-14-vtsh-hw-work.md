@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 衛道中學輔導作業
+slug: vtsh/hw/work
 tag:
   - story
   - greeting
