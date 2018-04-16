@@ -72,6 +72,9 @@ gems:
 jekyll-mentions:
     base_url: https://github.com
 
+plugins:
+  - amp-jekyll
+
 # Include list
 include: [_headers]
 # Exclude list
