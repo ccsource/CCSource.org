@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Markdown 語法"
+author: "系統"
 date:   2016-03-15
 excerpt: "介紹Markdown語法"
 tag:

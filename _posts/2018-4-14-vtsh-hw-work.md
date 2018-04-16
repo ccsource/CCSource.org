@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 衛道中學輔導作業
+author: "楊記綱"
 tag:
   - story
   - greeting
