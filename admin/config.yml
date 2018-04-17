@@ -4,6 +4,9 @@ backend:
 
 publish_mode: editorial_workflow
 
+editor:
+  preview: false
+
 media_folder: "files"
 public_folder: "/files"
 
@@ -18,7 +21,6 @@ collections:
     folder: "_posts"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
-    preview: false
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "標題", name: "title", widget: "string", required: true}
