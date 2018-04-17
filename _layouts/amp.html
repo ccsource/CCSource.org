@@ -18,7 +18,7 @@ layout: amp
 {{ page.title | amp_images }}
 </h1>
 <span>
-由{{ page.author }}於{{ page.date | date: "%Y-%m-%d %h:%m:%s" }}撰寫
+由{{ page.author }}於{{ page.date | date: "%Y-%m-%d %r" }}撰寫
 </span>
 {{ content | markdownify | amp_images }}
 </body>
