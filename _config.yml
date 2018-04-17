@@ -63,7 +63,7 @@ github-url:         ccsource-org
 #hackernews:        username
 
 #amp setup
-ampdir: amp
+ampdir: ./amp/
 
 # Gems
 gems:
