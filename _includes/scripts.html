@@ -5,6 +5,30 @@
     <script src="{{ site.url }}/assets/js/jquery.magnific-popup.min.js"></script>
     <script src="{{ site.url }}/assets/js/jquery.fitvid.min.js"></script>
     <script src="{{ site.url }}/assets/js/scripts.js"></script>
+    <script>
+      $('a').each(function() {
+          var a = new RegExp('/' + window.location.host + '/');
+          if(!a.test(this.href)) {
+              $(this).click(function(event) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                  window.open(this.href, '_blank');
+              });
+          }
+      });
+    </script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>    
     {% if site.google.analytics %}
     <!-- Asynchronous Google Analytics snippet -->
     <script>
