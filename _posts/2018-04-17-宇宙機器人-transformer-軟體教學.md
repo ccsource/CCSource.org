@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 宇宙機器人 Transformer 軟體教學
+author: 小神
 comments: true
 tag:
   - story
