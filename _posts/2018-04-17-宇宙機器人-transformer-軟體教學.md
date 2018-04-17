@@ -2,7 +2,6 @@
 layout: post
 title: 宇宙機器人 Transformer 軟體教學
 comments: true
-date: '2018-04-17'
 tag:
   - story
 ---
