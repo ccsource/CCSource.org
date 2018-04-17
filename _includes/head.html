@@ -59,15 +59,3 @@
     {% unless feature contains 'http://' or feature contains 'https://' %}{% capture feature %}{{ site.url }}/{{ feature }}{% endcapture %}{% endunless %}
     <style type="text/css">.feature {background-image:url({{ feature }});}</style>
     {% endif %}
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <script>
-        if (window.netlifyIdentity) {
-            window.netlifyIdentity.on("init", user => {
-                if (!user) {
-                window.netlifyIdentity.on("login", () => {
-                    document.location.href = "/admin/";
-                });
-                }
-            });
-        }
-    </script>  
