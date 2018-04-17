@@ -2,7 +2,6 @@
 layout: post
 title: 宇宙機器人 Transformer 軟體教學 (Arduino 篇)
 author: 小神
-date: '2018/4/17 6:30 PM'
 excerpt: 由宇宙機器人團隊開發的 Transformer 是一個超~強的 Scratch 擴充軟體，今天我就來教大家如何用它來連接 Ardunio
 comments: true
 tag:
@@ -43,4 +42,14 @@ tag:
 
 - - -
 
-> 感謝大家的收看，我是小神，我們下次見
+# 更多連結
+
+* [宇宙機器人官網](http://kodorobot.com)
+* [One Robot Per Kid (Robot機器人體驗營)](https://www.facebook.com/groups/kodorobot/)
+* [宇宙機器人服務信箱](mailto:service@kodorobot.com)
+* [小神聯絡信箱 (自己寫](mailto:andrew@ccsource.org)
+* [Arduino 官網](https://www.arduino.cc/)
+
+- - -
+
+## 感謝大家的收看，我是小神，我們下次見
