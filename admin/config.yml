@@ -19,7 +19,7 @@ collections:
   - name: "story"
     label: "Story"
     folder: "_posts"
-    filter: {field: "project", value: false||null||undefined}
+    filter: {field: "project", value: false}
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
     delete: false
