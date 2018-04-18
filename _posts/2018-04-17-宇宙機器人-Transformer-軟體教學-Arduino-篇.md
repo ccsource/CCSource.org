@@ -1,6 +1,5 @@
 ---
 layout: post
-project: false
 title: 宇宙機器人 Transformer 軟體教學 (Arduino 篇)
 author: 小神
 date: '2018-04-17T18:37:00+08:00'
