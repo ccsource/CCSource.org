@@ -59,3 +59,5 @@ collections:
         allow_add: true
         default: ["計畫"]
         required: false
+    editor:
+      preview: false
