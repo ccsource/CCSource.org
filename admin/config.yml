@@ -19,13 +19,12 @@ collections:
   - name: "story"
     label: "Story"
     folder: "_posts"
-    filter: {field: "project", value: false}
+    filter: {field: "project", value: undefined}
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
     delete: false
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "是否為計畫", name: "project", widget: "hidden", default: false}
       - {label: "標題", name: "title", widget: "string", required: true}
       - {label: "筆名", name: "author", widget: "string", required: true}
       - {label: "發布時間", name: "date", widget: "datetime", required: true}
