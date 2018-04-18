@@ -19,7 +19,7 @@ collections:
   - name: "story"
     label: "Story"
     folder: "_posts"
-    filter: {field: "project", value: undefined}
+    filter: {field: "project", value: null}
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
     delete: false
@@ -35,7 +35,7 @@ collections:
         name: "tag"
         widget: "list"
         allow_add: true
-        default: ["story"]
+        default: ["故事"]
         required: false
   - name: "project"
     label: "Project"
@@ -57,5 +57,5 @@ collections:
         name: "tag"
         widget: "list"
         allow_add: true
-        default: ["story"]
+        default: ["計畫"]
         required: false
