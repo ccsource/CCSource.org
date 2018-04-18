@@ -12,6 +12,7 @@ url:                https://ccsource.org
 
 # Jekyll
 permalink:          /:title/
+timezone: Asia/Taipei
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
