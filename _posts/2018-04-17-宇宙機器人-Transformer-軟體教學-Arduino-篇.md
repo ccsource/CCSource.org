@@ -5,7 +5,7 @@ title: 宇宙機器人 Transformer 軟體教學 (Arduino 篇)
 author: 小神
 date: '2018-04-17T18:37:00+08:00'
 excerpt: 由宇宙機器人團隊開發的 Transformer 是一個超~強的 Scratch 擴充軟體，今天我就來教大家如何用它來連接 Ardunio
-comments: true
+comments: false
 tag:
   - 宇宙機器人
   - Transformer

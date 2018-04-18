@@ -30,7 +30,7 @@ collections:
       - {label: "筆名", name: "author", widget: "string", required: true}
       - {label: "發布時間", name: "date", widget: "datetime", required: true}
       - {label: "簡介", name: "excerpt", widget: "string", required: false}
-      - {label: "comments", name: "comments", widget: "hidden", default: true}
+      - {label: "comments", name: "comments", widget: "hidden", default: false}
       - {label: "文章", name: "body", widget: "markdown", required: true}
       - label: "標籤"
         name: "tag"
@@ -52,7 +52,7 @@ collections:
       - {label: "筆名", name: "author", widget: "string", required: true}
       - {label: "發布時間", name: "date", widget: "datetime", required: true}
       - {label: "簡介", name: "excerpt", widget: "string", required: false}
-      - {label: "comments", name: "comments", widget: "hidden", default: true}
+      - {label: "comments", name: "comments", widget: "hidden", default: false}
       - {label: "文章", name: "body", widget: "markdown", required: true}
       - label: "標籤"
         name: "tag"
