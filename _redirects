@@ -1,0 +1,4 @@
+# Redirect default Netlify subdomain to primary domain
+https://ccsource-org.netlify.com/* https://ccsource.org/:splat 301!
+# Redirect www subdomain to primary domain
+https://www.ccsource.org/* https://ccsource.org/:splat 301!
